@@ -34,35 +34,27 @@
 .game__player--x--1 {
   left: var(--shift);
 }
-
 .game__player--x--2 {
   left: calc(var(--cell-size) + var(--shift));
 }
-
 .game__player--x--3 {
   left: calc(2 * var(--cell-size) + var(--shift));
 }
-
 .game__player--y--1 {
   top: var(--shift);
 }
-
 .game__player--y--2 {
   top: calc(var(--cell-size) + var(--shift));
 }
-
 .game__player--y--3 {
   top: calc(2 * var(--cell-size) + var(--shift));
 }
-
 .game__player--color--red {
   background-color: red;
 }
-
 .game__player--color--green {
   background-color: green;
 }
-
 .game__player--color--blue {
   background-color: blue;
 }
